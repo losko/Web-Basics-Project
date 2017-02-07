@@ -1,0 +1,3 @@
+Added index.html
+Added folders: scripts, styles, images.
+Added styles/main.less, main.css.
