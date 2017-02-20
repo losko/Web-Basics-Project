@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+	box-sizing: border-box;
+}
 body {
-	color: red;
+	font-family: 'Fontdiner Swanky', cursive;
+	header {
+		background-color: #7272FF;
+		padding: 1%;
+		padding-left: 10%;
+		background: url("../images/logo.jpg") no-repeat;
+		background-color: #1A1A1A;
+		background-size: 120px 110px;
+		h1 {
+			color: red;
+			font-size: 3rem;
+			font-weight: 900;
+			text-transform: capitalize;
+		}
+	}
+	aside {
+		display: inline-block;
+		width: 5%;
+		ul {
+			list-style: none;
+			li {
+				button {
+					font-family: 'Fontdiner Swanky', cursive;
+					width: 105%;
+					margin: 10%;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+	main {
+		vertical-align: top;
+		display: inline-block;
+		border: 1px solid black;
+		width: 94%;
+		margin-top: 0.5%;
+	}
 }
