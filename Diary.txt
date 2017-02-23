@@ -6,3 +6,7 @@ Added logo image.
 Created basic page structure.
 Added font and nav.
 ---
+Added image.html
+Added backgrounds.
+Edited index page layout.
+---

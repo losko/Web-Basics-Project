@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,40 +25,126 @@ time, mark, audio, video {
 }
 body {
 	font-family: 'Fontdiner Swanky', cursive;
+	text-align: center;
+	background: url("../images/background-2.png") no-repeat;
+	background-size: cover;
+	padding-top: 2.5%;
 	header {
-		background-color: #7272FF;
-		padding: 1%;
-		padding-left: 10%;
-		background: url("../images/logo.jpg") no-repeat;
-		background-color: #1A1A1A;
-		background-size: 120px 110px;
+		background: none;
+		background-size: cover;
+		margin: 0 auto;
+		a {
+			text-decoration: none;
+			outline: none;
+		}
 		h1 {
-			color: red;
-			font-size: 3rem;
+			outline: none;
+			position: relative;
+			left: -20%;
+			//color: #3b5139;
+			color: #ff5900;
+			font-size: 4rem;
 			font-weight: 900;
 			text-transform: capitalize;
+			text-shadow: 10px 10px rgba(0,0,0,0.8);
+		}
+		.h1-last-letter {
+			text-transform: uppercase;
 		}
 	}
 	aside {
 		display: inline-block;
-		width: 5%;
+		width: 8%;
+		margin-right: -2%; 
 		ul {
 			list-style: none;
 			li {
-				button {
+				a {
+					display: block;
+					cursor: pointer;
+					background: none;
+					border: 4px solid #222d21;
+					background-color: #3b5139;
+					border-radius: 5px;
+					box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.8);
+					text-shadow: 6px 6px 5px rgba(0, 0, 0, 1);
+					color: #fff6d8;
 					font-family: 'Fontdiner Swanky', cursive;
+					letter-spacing: 4px;
+					text-transform: capitalize;
+					text-transform: uppercase;
+					font-weight: 500;
 					width: 105%;
+					padding: 5%;
 					margin: 10%;
 					margin-left: 0;
+					z-index: 1;
+					outline: none;
+					text-decoration: none;
+					a {
+						color: #fff6d8;
+						text-decoration: none;
+					}
+				}
+				a:hover {
+					outline: none;
+				}
+				a:active {
+					margin-left: 15%;
+					z-index: 1;
+					outline: none;
 				}
 			}
 		}
 	}
 	main {
+		position: relative;
+		//z-index: -1;
+		color: #fff;
 		vertical-align: top;
 		display: inline-block;
-		border: 1px solid black;
-		width: 94%;
-		margin-top: 0.5%;
+		width: 50%;
+		height: 450px;
+		margin-top: 0.7%;
+		padding: 2%;
+		background-size: cover;
+	}
+	main.main:hover {
+		box-shadow: 37px 30px 77px 3px rgba(0,0,0,0.79);
+	}
+}
+.audio {
+	padding-top: 1%;
+	text-align: left;
+	p {
+		font-family: 'Fontdiner Swanky','Lobster', cursive;
+		letter-spacing: 5px;
+		padding-left: 5%;
+	}
+	audio {
+		background-color: #000;
+	}
+	.controls {
+		margin-left: 2%;
+		color: red;
+		background: none;
+		border: none;
+		font-size: 1.5rem;
+		font-weight: 900;
+	}
+}
+footer {
+	margin-top: 3%;
+	color: #fff;
+	p {
+		display: inline-block;
+	}
+	p:first-of-type {
+		position: relative;
+		left: -12%;
+	}
+	p:last-of-type {
+		position: relative;	
+		left: 20%;
 	}
 }
