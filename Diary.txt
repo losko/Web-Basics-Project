@@ -10,3 +10,6 @@ Added image.html
 Added backgrounds.
 Edited index page layout.
 ---
+Added file style/music.less, music.css
+Added file music.html.
+---

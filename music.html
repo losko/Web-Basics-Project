@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/music.css">
+	<title>Music</title>
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<h1>Trosko<span class="h1-last-letter">t</span></h1>
+		</a>	
+	</header>
+	<aside>
+		<nav>
+			<ul>
+				<li>
+					<a href="images.html">Images</a>
+				</li>
+				<li>
+					<a href="video.html">Video</a>
+				</li>
+				<li>
+					<a href="music.html">Music</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+			</ul>
+		</nav>
+	</aside>
+	<main class="main">
+		<article class="cube">
+			<nav class="cube-nav">
+				<ul>
+					<li class="red-btn-li">
+						<button class="red-btn"></button>
+						<span class="red-text">Red Button in Left</span>
+					</li>
+					<li>
+						<button class="controls cube-button" onclick="document.getElementById('player').play()"></button>
+						<span class="controls-text">Play</span>
+					</li>
+					<li>
+						<button class="controls cube-button" onclick="document.getElementById('player').volume += 0.1"></button>
+						<span class="controls-text">Volume +</span>
+					</li>
+					<li>
+						<button class="controls cube-button" onclick="document.getElementById('player').volume -= 0.1"></button>
+						<span class="controls-text">Volume -</span>
+					</li>
+					<li>
+						<button class="controls cube-button" onclick="document.getElementById('player').pause()"></button>
+						<span class="controls-text">Stop</span>
+					</li>
+				</ul>
+			</nav>
+			<audio id="player">
+			    <source src="horse.ogg" type="audio/ogg">
+			    <source src="music/king.wav" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+		</article>
+	</main>
+	<footer>
+		<p>
+			&copy; TroskoT
+		</p>
+		<p>
+			Created by Losko
+		</p>
+	</footer>
+</body>
+</html>
