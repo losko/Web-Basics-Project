@@ -13,3 +13,6 @@ Edited index page layout.
 Added file style/music.less, music.css
 Added file music.html.
 ---
+Added all html + css files.
+Added basic layout.
+---
