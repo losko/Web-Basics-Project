@@ -97,13 +97,23 @@ main {
 		color: #fff;
 		vertical-align: top;
 		display: inline-block;
-		width: 50%;
+		width: 35%;
 		height: 450px;
 		margin-top: 0.1%;
 		margin-left: 2.8%;
 		background: url("../images/TV.png") no-repeat;
-		//background-size: cover;
+		background-color: #000;
 		background-size: 100% 450px;
+		article {
+			video {
+				position: relative;
+				width: 350px;
+				top: 35px;
+				left: -50px;
+				border-radius: 5%;
+				opacity: 0.3;
+			}
+		}
 }
 .audio {
 	padding-top: 1%;
@@ -231,6 +241,9 @@ article.cube {
 	background-size: 100% 100%;
 	width: 93.5%;
 	height: 295px;
+}
+img.img {
+	display: none;
 }
 footer {
 	margin-top: 3%;

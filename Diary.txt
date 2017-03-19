@@ -22,3 +22,5 @@ Added Music.
 Added Videos.
 Added responsive css for music,images,index html files.
 ---
+Added responsiv to videos.
+---
