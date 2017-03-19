@@ -3,17 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style/music.css">
+	<link rel="stylesheet" href="style/music-responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Music</title>
+	<title>TroskoT</title>
 </head>
 <body>
 	<header>
 		<a href="index.html">
-			<h1>Trosko<span class="h1-last-letter">t</span></h1>
+			<h1 class="main-h1">Trosko<span class="h1-last-letter">t</span></h1>
 		</a>	
 	</header>
-	<aside>
+	<aside class="main-aside">
 		<nav>
+			<a href="index.html">
+				<img src="images/Mini-Menu_Icon_green.png" alt="Menu-icon" class="img">
+			</a>
 			<ul>
 				<li>
 					<a href="images.html">Images</a>
@@ -31,14 +35,12 @@
 		</nav>
 	</aside>
 	<main class="main">
-		<article class="cube">
-			<nav class="cube-nav">
+		<article class="cube cube-res">
+			<nav class="cube-nav cube-nav-res">
 				<ul>
-					<li class="red-btn-li">
-						<button class="red-btn">
-							
-						</button>
-						<span class="red-text">Power</span>
+					<li class="pw-btn-li pw-btn-li-res">
+						<button class="pw-btn pw-btn-res"></button>
+						<span class="pw-text pw-text-res">Songs</span>
 					</li>
 					<li>
 						<button class="controls cube-button" onclick="document.getElementById('player').play()"></button>
@@ -54,21 +56,52 @@
 					</li>
 					<li>
 						<button class="controls cube-button" onclick="document.getElementById('player').pause()"></button>
-						<span class="controls-text">Stop</span>
+						<span class="controls-text">Pause</span>
 					</li>
 				</ul>
 			</nav>
 			<audio id="player">
-			    <source src="horse.ogg" type="audio/ogg">
-			    <source src="music/king.wav" type="audio/mpeg">
+			    <source src="music/1.mp3" type="audio/mpeg">
 			Your browser does not support the audio element.
 			</audio>
-			<div class="cube-body">
+			<div class="cube-body cube-body-res">
 				
 			</div>
 		</article>
+		<div class="tel-music">
+			<p>To the sand world</p>
+				<audio controls>
+			    <source src="music/1.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<p>Wolf's Cry</p>
+			<audio controls>
+			    <source src="music/2.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<p>The King and The End</p>
+			<audio controls>
+			    <source src="music/3.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<p>Curse</p>
+			<audio controls>
+			    <source src="music/4.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<p>Gladiator</p>
+			<audio controls>
+			    <source src="music/5.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<p>Moon's Path</p>
+			<audio controls>
+			    <source src="music/6.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			</div>
 	</main>
-	<footer>
+	<footer class="footer">
 		<p>
 			&copy; TroskoT
 		</p>

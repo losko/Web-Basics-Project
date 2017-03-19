@@ -17,3 +17,8 @@ Added all html + css files.
 Added basic layout.
 ---
 .
+Added Images.
+Added Music.
+Added Videos.
+Added responsive css for music,images,index html files.
+---
